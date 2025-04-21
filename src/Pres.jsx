@@ -20,7 +20,7 @@ function Pres () {
                     With 2 years of studies in python during my final year, I am able to adapt to the work required and quickly learn new technologies.
                     Through this portfolio, you will discover my world, my achievements and my approach to work. 
                     My goal ? Transform ideas into unique and impactful experiences. Enjoy your visit and don’t 
-                    hesitate to contact me for any collaboration!
+                    hesitate to contact me for any collaboration !
                 </p>
             </div>
         </div>
