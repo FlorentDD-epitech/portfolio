@@ -42,9 +42,13 @@ function ChangeTheme() {
   const putTheme = (theme) => {
     document.body.style.background = theme.bg;
     document.getElementById('svgPicture').style.stroke = theme.font
+    const competences = document.getElementsByClassName('competence');
     const ps = document.getElementsByTagName('p');
     for (const p of ps) {
       p.style.color = theme.font;
+    }
+    for (const comp of competences) {
+      comp.style.background = theme.bg;
     }
   }
 
@@ -64,7 +68,7 @@ function ChangeTheme() {
           viewBox="0 0 24 24" 
           strokeWidth="2" 
           stroke="white" 
-          className="size-12 duration-800"
+          className="size-10 duration-800"
           id='svgPicture'>
 
           <path 

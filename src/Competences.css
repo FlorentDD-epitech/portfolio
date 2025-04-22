@@ -1,10 +1,27 @@
 @import "tailwindcss";
 
-@keyframes competences_rotation {
+.item {
+    animation: spinAround 6s linear infinite;
+}
+
+.item > * {
+    animation: inverseSpin 6s linear infinite;
+}
+
+@keyframes spinAround{
     0% {
-        
+        transform: rotate(0deg) translate(350px);
     }
     100% {
+        transform: rotate(360deg) translate(350px);
+    }
+}
 
+@keyframes inverseSpin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
     }
 }

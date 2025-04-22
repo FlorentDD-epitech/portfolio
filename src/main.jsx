@@ -4,6 +4,7 @@ import './index.css'
 import Nav from './Nav.jsx'
 import Pres from './Pres.jsx'
 import Project from './Project.jsx'
+import Competecences from './Competences.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,5 +25,6 @@ createRoot(document.getElementById('root')).render(
       <Project image={'src/assets/godot.jpg'} title={"Jazon's Projects"}>Being curious and with the desire to learn, Jazon's projects is a game
        still in development using Godot engine and Blender for the creation of our 3D models</Project>
     </div>
+    <Competecences></Competecences>
   </StrictMode>
 )

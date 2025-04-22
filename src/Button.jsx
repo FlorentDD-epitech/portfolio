@@ -18,7 +18,7 @@ function Button({children, func}) {
           ml-8 
           mt-5 
           hover:bg-gradient-to-br
-        text-white
+          text-white
           active:translate-y-1 
           active:shadow-none'
         > {children}
