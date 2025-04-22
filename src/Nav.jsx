@@ -30,12 +30,12 @@ function ChangeTheme() {
   const [isWhite, setIsWhite] = useState(true)
 
   const whiteTheme = {
-    bg : '#F5F5F5',
+    bg : '#c7d2fe',
     font : 'black',
   }
 
   const blackTheme = {
-    bg : '#1F2937',
+    bg : '#1e1b4b',
     font : 'white',
   }
 
@@ -64,7 +64,7 @@ function ChangeTheme() {
           viewBox="0 0 24 24" 
           strokeWidth="2" 
           stroke="white" 
-          className="size-6 duration-800"
+          className="size-12 duration-800"
           id='svgPicture'>
 
           <path 

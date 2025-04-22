@@ -11,7 +11,7 @@ function Pres () {
                     </p>
                 </div>
                 <div className=' w-200 flex items-center justify-center ml-5'>
-                    <img src="src/assets/babouin.jpg" alt="" className='rounded-3xl'/>
+                    <img src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-110'/>
                 </div>
             </div>
             <div className=' pb-20'>
