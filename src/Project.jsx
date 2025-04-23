@@ -1,6 +1,5 @@
 import './Project.css'
-import { motion, useMotionValue, useSpring, useTransform } from "motion/react"
-import { div } from 'motion/react-client';
+import { motion, useMotionValue, useTransform } from "motion/react"
 import { useRef } from 'react'
 
 function Project ({children, image, title}) {

@@ -9,9 +9,11 @@ function Nav() {
       <nav className=' pb-5 fixed  w-full'>
         <ul className='flex align-top relative'>
           <li>
-            <Button>
-              <p className=' font-bold duration-800'>PROJECTS</p>
-            </Button>
+            <a href="#Projects">
+              <Button>
+                <p className=' font-bold duration-800'>PROJECTS</p>
+              </Button>
+            </a>
           </li>
           <li>
             <Button>

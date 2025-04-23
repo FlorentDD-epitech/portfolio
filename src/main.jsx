@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Nav/>
     <Pres/>
-    <div className='justify-center mt-20 flex flex-wrap'>
+    <div id='Projects' className='justify-center mt-20 flex flex-wrap'>
       <Project image={'src/assets/web-development.jpg'} title={"Portfolio"}>This project allowed me to learn a lot about web development.
        Using frameworks like Vite JS, React, and Tailwind, I was able to create a website from scratch.</Project>
       <Project image={'src/assets/epitech.jpg'} title={"Epitech's projects"}>My first year at Epitech taught me a lot about computer development

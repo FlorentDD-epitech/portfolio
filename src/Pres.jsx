@@ -3,25 +3,19 @@ import './Pres.css'
 function Pres () {
 
     return (
-        <div>
-            <div id='pres' className='flex columns-2 pt-50 pl-60 pr-60 justify-center'>
-                <div className=' w-200 flex items-center justify-center mr-5'>
-                    <p className=' text-white font-bold duration-800 text-5xl'>
-                        HI ! I'M FLORENT<br/>AN EPITECH'S STUDENT
-                    </p>
-                </div>
-                <div className=' w-200 flex items-center justify-center ml-5'>
-                    <img src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-110'/>
-                </div>
-            </div>
-            <div className=' pb-20'>
-                <p className=' text-white font-bold duration-800 flex justify-center mt-50 mr-30 ml-30 text-3xl text-justify leading-13'>
-                    Actually in tek1, I'm IT passionnate and I want to be a future actor in this domain.
-                    With 2 years of studies in python during my final year, I am able to adapt to the work required and quickly learn new technologies.
-                    Through this portfolio, you will discover my world, my achievements and my approach to work. 
-                    My goal ? Transform ideas into unique and impactful experiences. Enjoy your visit and don’t 
-                    hesitate to contact me for any collaboration !
+        <div id='pres' className='flex flex-row pt-40 pb-40 justify-center flex-wrap-reverse'>
+            <div className=' w-175 flex justify-center mr-5 flex-col'>
+                <p className=' text-white font-bold duration-800 text-6xl'>
+                    HI ! I'M FLORENT<br/>AN EPITECH'S STUDENT
                 </p>
+                <p className=' text-white font-bold duration-800 mt-10 text-justify text-2xl'>
+                    I'm a first-year IT student passionate about technology.
+                    I quickly adapt and love learning new tools. This portfolio showcases my work, mindset, and creativity.
+                    Let's turn ideas into impactful projects !
+                </p>
+            </div>
+            <div className=' w-200 flex items-center justify-center ml-5'>
+                <img src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-120 mb-40 mt-40'/>
             </div>
         </div>
     )
