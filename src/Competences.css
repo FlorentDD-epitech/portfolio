@@ -1,27 +1,27 @@
 @import "tailwindcss";
 
-.item {
-    animation: spinAround 7s linear infinite;
-}
-
-.item > * {
-    animation: inverseSpin 7s linear infinite;
-}
-
-@keyframes spinAround{
-    0% {
-        transform: rotate(0deg) translate(350px);
-    }
-    100% {
-        transform: rotate(360deg) translate(350px);
+@theme {
+    --animate-spinAround: spinAround 7s linear infinite;
+    
+    @keyframes spinAround{
+        0% {
+            transform: rotate(0deg) translate(350px);
+        }
+        100% {
+            transform: rotate(360deg) translate(350px);
+        }
     }
 }
 
-@keyframes inverseSpin{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(-360deg);
+@theme {
+    --animate-inverseSpin: inverseSpin 7s linear infinite;
+
+    @keyframes inverseSpin{
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
     }
 }

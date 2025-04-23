@@ -46,8 +46,8 @@ function Project ({children, image, title}) {
                 rotateY,
                 transformStyle: "preserve-3d"
             }}
-            className=' relative h-180 w-130 rounded-3xl
-            ml-10 mr-10 mb-20 '>
+            className=' relative h-130 sm:h-180 w-80 sm:w-130 rounded-3xl
+            lg:ml-10 lg:mr-10 mb-5 sm:mb-20 '>
             <div
                 style={{
                     transform: "translateZ(50px)",
@@ -61,12 +61,12 @@ function Project ({children, image, title}) {
                 hover:scale-115
                 duration-800
                 rounded-3xl
-                w-120
-                h-170'>
+                w-70 sm:w-120
+                h-120 sm:h-170'>
                 <div className= ' mr-10 ml-10 pt-10'>
-                    <img src={image} alt="" className=' h-70 w-110 rounded-3xl md:object-fill'/>
-                    <p className=' text-white font-bold text-3xl duration-800 flex justify-center mt-5'>{title}</p>
-                    <p className=' text-white duration-800 mt-4 text-justify text-2xl'>{children}</p>
+                    <img src={image} alt="" className='h-30 sm:h-70 w-60 sm:w-110 rounded-3xl md:object-fill'/>
+                    <p className=' text-white font-bold text-2xl sm:text-3xl duration-800 flex justify-center mt-5'>{title}</p>
+                    <p className=' text-white duration-800 mt-4 text-justify sm:text-2xl'>{children}</p>
                 </div>
             </div>
         </motion.div>
