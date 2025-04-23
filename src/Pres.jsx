@@ -4,8 +4,8 @@ import Button from './Button'
 function Pres () {
 
     return (
-        <div id='pres' className='flex flex-col-reverse items-center pt-20 xl:pt-40 xl:pb-40 xl:justify-around xl:flex-row'>
-            <div className='xl:w-175 flex justify-center flex-col lg:mt-10 xl:mt-0'>
+        <div id='pres' className='flex flex-col-reverse items-center pt-20 xl:pt-40 xl:pb-40 justify-around xl:flex-row'>
+            <div className='xl:ml-20 xl:w-175 flex justify-center flex-col lg:mt-10 xl:mt-0'>
                 <p className=' text-white font-bold duration-800 text-3xl sm:text-5xl xl:text-6xl leading-10 xl:leading-20 text-center xl:text-start'>
                     HI ! I'M FLORENT 👋<br/>AN EPITECH'S STUDENT
                 </p>
@@ -21,7 +21,7 @@ function Pres () {
                 </div>
             </div>
             <div className='photo flex items-center justify-center '>
-                <img id='photo' src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-75 lg:scale-150 lg:mb-40 lg:mt-40'/>
+                <img id='photo' src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-75 lg:scale-150 lg:mb-40 lg:mt-40 xl:ml-25 xl:mr-40'/>
             </div>
         </div>
     )
