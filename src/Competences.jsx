@@ -43,6 +43,10 @@ function Competecences({img}) {
           style={{
             animationDelay: "5s",
           }}><Competecence img={'src/assets/godot_logo.png'} delay={"5s"}></Competecence></div>
+        <div className='item'
+          style={{
+            animationDelay: "6s",
+          }}><Competecence img={'src/assets/blender_logo.png'} delay={"6s"}></Competecence></div>
       </div>
     </div>
   )

@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 .item {
-    animation: spinAround 6s linear infinite;
+    animation: spinAround 7s linear infinite;
 }
 
 .item > * {
-    animation: inverseSpin 6s linear infinite;
+    animation: inverseSpin 7s linear infinite;
 }
 
 @keyframes spinAround{
