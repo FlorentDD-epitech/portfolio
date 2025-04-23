@@ -21,7 +21,7 @@ function Competecences() {
   return (
     <div className='flex justify-center lg:mb-100 mb-20 lg:mt-100 mt-5 sm:mt-20'>
       <div className=' main flex justify-center flex-wrap lg:grid lg:[&>*]:col-start-1 lg:[&>*]:row-start-1'>
-        <div className='center'><Competecence img={'src/assets/skills.png'}/></div>
+        <div className='center hidden lg:inline'><Competecence img={'src/assets/skills.png'}/></div>
         <div className='item lg:animate-spinAround'>
           <div className='lg:animate-inverseSpin'>
             <Competecence img={'src/assets/Python-logo.png'}/>
