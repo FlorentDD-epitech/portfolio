@@ -16,10 +16,10 @@ function Competecence({img, delay}) {
     )
 }
 
-function Competecences({img}) {
+function Competecences() {
   
   return (
-    <div className='flex justify-center mb-120 mt-80'>
+    <div className='flex justify-center mb-100 mt-100'>
       <div className=' main grid [&>*]:col-start-1 [&>*]:row-start-1'>
         <div className='center'><Competecence img={'src/assets/skills.png'}></Competecence></div>
         <div className='item'><Competecence img={'src/assets/Python-logo.png'}></Competecence></div>

@@ -20,8 +20,8 @@ function Pres () {
                     </a>
                 </div>
             </div>
-            <div className=' w-200 flex items-center justify-center ml-5'>
-                <img src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-120 mb-40 mt-40'/>
+            <div className='photo flex items-center justify-center xl:ml-50'>
+                <img id='photo' src="src/assets/babouin.jpg" alt="" className='rounded-3xl scale-120 mb-40 mt-40'/>
             </div>
         </div>
     )

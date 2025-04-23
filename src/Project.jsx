@@ -47,7 +47,7 @@ function Project ({children, image, title}) {
                 transformStyle: "preserve-3d"
             }}
             className=' relative h-180 w-130 rounded-3xl
-            ml-15 mr-15 mb-35'>
+            ml-10 mr-10 mb-20 '>
             <div
                 style={{
                     transform: "translateZ(50px)",

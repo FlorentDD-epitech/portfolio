@@ -25,6 +25,10 @@ createRoot(document.getElementById('root')).render(
       <Project image={'src/assets/godot.jpg'} title={"Jazon's Projects"}>Being curious and with the desire to learn, Jazon's projects is a game
        still in development using Godot engine and Blender for the creation of our 3D models</Project>
     </div>
-    <Competecences></Competecences>
+    <div className=' flex justify-center flex-col mr-80 ml-80'>
+      <p className=' text-5xl font-bold text-white mb-5 duration-800'>Skills 💡</p>
+      <span className='w-full h-2 bg-gradient-to-tl from-indigo-700 to-blue-400'></span>
+      <Competecences/>
+    </div>
   </StrictMode>
 )
