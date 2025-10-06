@@ -1,20 +1,16 @@
 @import "tailwindcss";
 
-@keyframes glow {
+@keyframes bg-appear {
     0% {
-        text-shadow: 
-        0 0 5px #3a7ca500,
-        0 0 10px #3a7ca500,
-        0 0 15px #3a7ca500;
+        width: 0;
     }
     100% {
-        text-shadow:
-        0 0 10px #3a7ca5ff,
-        0 0 20px #3a7ca5ff,
-        0 0 30px #3a7ca5ff;
+        width: 100%;
     }
 }
 
-.text-category:hover {
-  animation: glow 0.5s linear forwards;
+.text-category-bg:hover {
+    background-color: #ffffff;
+    white-space: nowrap;
+    animation: bg-appear 1s ease-in-out forwards;
 }

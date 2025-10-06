@@ -14,7 +14,7 @@ function Categories() {
     <>
         <ul className=' flex flex-row w-full justify-end'>
             {categories.map((category) => (
-              <Category category={category} />         
+              <Category category={category} key={category[0]} />         
             ))}
         </ul>
     </>
