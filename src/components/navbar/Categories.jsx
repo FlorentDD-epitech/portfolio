@@ -12,10 +12,10 @@ function Categories() {
 
   return (
     <>
-        <ul className=' flex flex-row items-center justify-around w-full'>
+        <ul className=' flex flex-row w-full justify-end'>
             {categories.map((category) => (
               <a href={category[1]}>
-                <li key={category[0]} className=' text-white'>
+                <li key={category[0]} className=' text-white mr-5 font-bold'>
                   {category[0]}
                 </li>
               </a>

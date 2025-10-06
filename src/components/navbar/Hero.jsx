@@ -6,7 +6,7 @@ function Hero() {
     <>
       <div className='' id='Hero'>
         <a href="#home">
-          <img src={logoImage} alt="Logo FDD" className=' object-contain h-10 m-3 ml-5' />
+          <img src={logoImage} alt="Logo FDD" className=' object-contain h-15 m-3 ml-5' />
         </a>
       </div>
     </>
