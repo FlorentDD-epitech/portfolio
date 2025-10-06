@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 import logoImage from '../assets/fdd-high-resolution-logo-transparent.png'
 
 function Hero() {

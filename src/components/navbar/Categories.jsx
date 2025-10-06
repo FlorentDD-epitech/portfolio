@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 import Hero from './Hero'
 
 function Categories() {
@@ -12,8 +12,6 @@ function Categories() {
 
   return (
     <>
-      <div className=' flex flex-row items-center bg-[#1E2A38]'>
-        <Hero />
         <ul className=' flex flex-row items-center justify-around w-full'>
             {categories.map((category) => (
               <a href={category[1]}>
@@ -23,7 +21,6 @@ function Categories() {
               </a>
             ))}
         </ul>
-      </div>
     </>
   )
 }

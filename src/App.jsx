@@ -1,10 +1,10 @@
 import './App.css'
-import Categories from './components/Categories.jsx'
+import Navbar from './components/navbar/Navbar.jsx'
 
 function App() {
   return (
     <>
-      <Categories/>
+      <Navbar/>
     </>
   )
 }
