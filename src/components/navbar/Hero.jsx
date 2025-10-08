@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <div className='' id='Hero'>
-        <a href="#home">
+        <a href="#">
           <img src={logoImage} alt="Logo FDD" className=' object-contain h-15 m-3 ml-5' />
         </a>
       </div>
