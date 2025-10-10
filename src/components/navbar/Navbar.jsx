@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <>
-        <nav className={`fixed w-full  flex flex-row items-center bg-[#1E2A38] rounded-b-2xl 
+        <nav className={`fixed w-full h-25  flex flex-row items-center bg-[#1E2A38] rounded-b-2xl hover:h-30
           ${isShow ? "translate-y-0" : "-translate-y-full"} duration-500`}>
             <Hero />
             <Categories />
