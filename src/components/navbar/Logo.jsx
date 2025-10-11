@@ -1,16 +1,16 @@
 import '../../App.css'
 import logoImage from '../../assets/fdd-high-resolution-logo-transparent.png'
 
-function Hero() {
+function Logo() {
   return (
     <>
-      <div className='' id='Hero'>
+      <div className='' id='Logo'>
         <a href="#">
-          <img src={logoImage} alt="Logo FDD" className=' object-contain h-15 m-3 ml-5' />
+          <img src={logoImage} alt="Logo FDD" className=' object-contain h-20 m-3 ml-8' />
         </a>
       </div>
     </>
   ) 
 }
 
-export default Hero
+export default Logo

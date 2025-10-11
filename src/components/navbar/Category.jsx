@@ -6,7 +6,7 @@ function Category({ category }) {
     <a href={category[1]}>
         <div className='mr-5'>
             <div className='text-category-bg bg-[#1E2A38]'>
-                <li className='text-white  font-bold text-category pr-3 pb-1 pt-1 pl-3'>
+                <li className='text-white  font-bold text-xl text-category pr-3 pb-1 pt-1 pl-3'>
                     {category[0]}
                 </li>
             </div>

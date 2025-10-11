@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import '../../App.css'
-import Hero from './Hero'
+import Logo from './Logo'
 import Categories from './Categories'
 
 function Navbar() {
@@ -20,9 +20,9 @@ function Navbar() {
 
   return (
     <>
-        <nav className={`fixed w-full h-25  flex flex-row items-center bg-[#1E2A38] rounded-b-2xl hover:h-30
+        <nav className={`fixed w-full h-30  flex flex-row items-center bg-[#1E2A38] rounded-b-2xl hover:h-33
           ${isShow ? "translate-y-0" : "-translate-y-full"} duration-500`}>
-            <Hero />
+            <Logo />
             <Categories />
         </nav>
     </>
