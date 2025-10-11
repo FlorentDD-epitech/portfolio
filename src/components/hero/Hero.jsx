@@ -16,7 +16,6 @@ function Hero() {
                 </p>
             </div>
         </div>
-        <span className='w-1 h-150 bg-[#1E2A38] rounded-full'/>
         <img src={hero_image} alt='profile' className='size-140 rounded-4xl' />
       </div>
     </>
