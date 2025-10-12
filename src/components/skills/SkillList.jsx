@@ -6,7 +6,7 @@ import SkillItem from './SkillItem'
 function SkillList({skills, onSelectSkill}) {
 
     return (
-        <ul className='flex flex-row w-full gap-10'>
+        <ul className='flex flex-row w-full gap-10 flex-wrap'>
             {skills.map((skill) => (
                 <SkillItem skill={skill} onClick={() => onSelectSkill(skill)} key={skill.name}/>
             ))}
