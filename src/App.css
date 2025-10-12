@@ -36,7 +36,7 @@
 }
 
 .card {
-    animation: card_appear 0.3s ease-in-out forwards;
+    animation: card_appear 0.5s ease-in-out forwards;
 }
 
 .blur {

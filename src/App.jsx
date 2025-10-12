@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './components/navbar/Navbar.jsx'
 import Hero from './components/hero/Hero.jsx'
-import Skills from './components/skills/skills.jsx'
+import Skills from './components/skills/Skills.jsx'
 
 function App() {
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import '../../App.css'
-import SkillItem from './skill_item'
+import SkillItem from './SkillItem'
 
 function SkillList({skills, onSelectSkill}) {
 
