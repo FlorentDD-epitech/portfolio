@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react'
 import '../../App.css'
 import SkillItem from './SkillItem'
 
-function SkillList({skills, onSelectSkill}) {
+function SkillList({skills, onSelectSkill, end}) {
 
     return (
-        <ul className='flex flex-row w-full gap-10 flex-wrap'>
+        <ul className={`flex flex-row w-full gap-10 flex-wrap`}>
             {skills.map((skill) => (
                 <SkillItem skill={skill} onClick={() => onSelectSkill(skill)} key={skill.name}/>
             ))}

@@ -83,6 +83,17 @@ function Skills({showNav}) {
         },
     ]
 
+    const skills_tools = [
+        {name: 'GIT', image: django, card_image: fullstack, description: ''},
+        {name: 'GIT HUB', image: django, card_image: fullstack, description: ''},
+        {name: 'GIT BASH', image: django, card_image: fullstack, description: ''},
+        {name: 'BLENDER', image: django, card_image: fullstack, description: ''},
+        {name: 'VITE JS', image: django, card_image: fullstack, description: ''},
+        {name: 'VS CODE', image: django, card_image: fullstack, description: ''},
+        {name: 'RENDER', image: django, card_image: fullstack, description: ''},
+        {name: 'PSQL', image: django, card_image: fullstack, description: ''},
+    ]
+
     useEffect(() => {
         if (selectedSkills === null){
             showNav(true)
@@ -100,7 +111,9 @@ function Skills({showNav}) {
             <SkillCategory category='Programming Languages' end={false}>
                 <SkillList skills={skills_languages} onSelectSkill={setSelectedSkills}/>
             </SkillCategory>
-            <SkillCategory category='Tools' end={true} />
+            <SkillCategory category='Tools' end={true}>
+                <SkillList skills={skills_tools} onSelectSkill={setSelectedSkills}/>
+            </SkillCategory>
             {selectedSkills && (
                 <SkillCard skill={selectedSkills} onClick={() => setSelectedSkills(null)}/>
             )}
