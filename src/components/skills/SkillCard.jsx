@@ -1,12 +1,13 @@
+import { createPortal } from "react-dom";
+
 import '../../App.css'
 
 function SkillCard({skill, onClick}){
 
-    return (
+    return createPortal(
         <>
-            <div className='fixed inset-0 flex justify-center items-center z-40'>
-                <div className='blur absolute z-40 w-full h-full bg-black/20' onClick={onClick}></div>
-                <div className='card flex flex-col relative h-200 w-200 bg-[#1E2A38] rounded-xl z-50 overflow-y-auto'>
+            <div className='modal fixed inset-0 flex justify-center items-center z-10 bg-black/40' onClick={onClick}>
+                <div className='card flex flex-col h-200 w-200 bg-[#1E2A38] rounded-xl overflow-y-auto shadow-xl z-20' onClick={(e) => e.stopPropagation()}>
                     <div className='flex justify-end m-5'>
                         <div className='flex bg-black/20 w-10 h-10 rounded-full items-center justify-center hover:scale-120 duration-200' >
                             <button onClick={onClick} className='text-white font-bold text-2xl'>X</button>
@@ -20,7 +21,8 @@ function SkillCard({skill, onClick}){
                     </div>
                 </div>
             </div>
-        </>
+        </>,
+        document.body
     )
 }
 
